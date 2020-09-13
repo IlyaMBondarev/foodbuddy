@@ -682,7 +682,7 @@ a, a:hover, a:focus{
 
 .particle{
 	background-image: url(../img/bg1.jpg);
-	background-position: 50% 0 !important;
+	background-position: 50% 0% !important;
 	height: 100vh;
 	position: relative;
 	overflow-x: hidden !important;
@@ -1053,7 +1053,7 @@ a, a:hover, a:focus{
 	position: relative;
 	padding-left: 12px;
 	top: 5px;
-	z-index: 9999998;
+	z-index: 999;
   }
   #sm {
 	padding-left: 12px;
@@ -1063,7 +1063,7 @@ a, a:hover, a:focus{
 	font-size: 14px;
 	max-height: 0;
 	overflow: hidden;
-	transition: max-height 0.4s ease;
+	transition: max-height 0.4s linear;
 	width: 155px;
 	text-align:left;
 	text-decoration:none;   
@@ -1166,7 +1166,8 @@ a, a:hover, a:focus{
 	width: 100%;
 	height: 100%;
 	cursor: pointer;
-	display: block; 
+	display: block;
+	z-index: 999;
    }
   input.toggleSubmenu:checked ~ .navbar__drop-menu {
 	max-height: 100px;
