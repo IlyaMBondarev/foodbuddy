@@ -1063,7 +1063,7 @@ a, a:hover, a:focus{
 	font-size: 14px;
 	max-height: 0;
 	overflow: hidden;
-	transition: max-height 0.2s ease;
+	transition: max-height 0.4s ease;
 	width: 155px;
 	text-align:left;
 	text-decoration:none;   
@@ -1076,7 +1076,7 @@ a, a:hover, a:focus{
   input.toggleMenu:checked ~ .header__arrow-down {
 	transform: rotate(270deg);
 	transition-timing-function: ease;
-	transition-duration: 0.2s;
+	transition-duration: 0.4s;
   }
   input.toggleMenu:checked ~ .header__drop-menu  {
 	max-height: 80px;
@@ -1102,7 +1102,7 @@ a, a:hover, a:focus{
 	left: 92px;
 	font-size: 25px;
 	transform: rotate(90deg);
-	transition: transform 0.2s ease;
+	transition: transform 0.4s ease;
 	top: 43px;
 	width: 10px;
 	height: 35px;
@@ -1146,7 +1146,7 @@ a, a:hover, a:focus{
 	left: 90%;
 	font-size: 25px;
 	transform: rotate(90deg);
-	transition: transform 0.2s ease;
+	transition: transform 0.4s ease;
 	position: absolute;
 	display: inline-block;
 	color: #ccc;
@@ -1156,7 +1156,7 @@ a, a:hover, a:focus{
   .navbar__drop-menu {
 	max-height: 0;
 	overflow: hidden;
-	transition: max-height 0.2s ease;
+	transition: max-height 0.4s ease;
   }
   
    .navbar__drop label.toggleSubmenu{
