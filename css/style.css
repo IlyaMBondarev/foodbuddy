@@ -112,7 +112,6 @@ a, a:hover, a:focus{
 .nav-scroll{
 	background: #111;
 	height: 80px;
-	line-height: 80px;
 	padding: 0;
 	position: fixed;
 	top: 0;
@@ -1151,7 +1150,7 @@ a, a:hover, a:focus{
 	display: inline-block;
 	color: #ccc;
 	cursor: pointer;
-	z-index: 998;
+	z-index: 997;
   }
   .navbar__drop-menu {
 	max-height: 0;
@@ -1167,12 +1166,14 @@ a, a:hover, a:focus{
 	height: 100%;
 	cursor: pointer;
 	display: block;
-	z-index: 999;
+	z-index: 998;
    }
+  input.toggleSubmenu:checked ~label.toggleSubmenu {
+	  height: 33%;
+  }
   input.toggleSubmenu:checked ~ .navbar__drop-menu {
 	max-height: 100px;
 	z-index: 999;
-	color: #FFD700;
    }
   input.toggleSubmenu:checked ~ .navbar__arrow-down {
 	transform: rotate(270deg);
